@@ -4,6 +4,7 @@ import { PrivateRoute } from './_login/PrivateRoute';
 import { Login } from './_login/Login';
 import { Search } from './_search/Search';
 
+
 class App extends React.Component {
     render() {
         return (
@@ -15,5 +16,4 @@ class App extends React.Component {
         );
     }
 }
-
 export { App };
