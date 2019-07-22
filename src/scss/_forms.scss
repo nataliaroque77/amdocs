@@ -1,0 +1,58 @@
+
+input {
+    display:          block;
+    width:            100%;
+    height:           38px;
+    padding:          0.4rem 1rem;
+    font-family:      $font-family;
+    font-size:        1.4rem;
+    font-weight:      400;
+    line-height:      1.4;
+    background-color: white;
+    border:           2px solid white;
+    transition:       border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    &:focus {
+        outline:    0;
+    }
+
+    // Placeholder
+    &::placeholder {
+        color:   $placeholder;
+        opacity: 1; // Override Firefox's unusual default opacity;
+    }
+}
+
+
+label {
+    display:       block;
+    margin-bottom: .5rem;
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+
+.has-error {
+    .form-control {
+        border-bottom: 2px solid #a94442;
+    }
+
+    .help-block {
+        color:         white;
+        display:       block;
+        margin-top:    5px;
+        margin-bottom: 10px;
+        font-size:     14px;
+        text-align:    left;
+    }
+}
+
+.alert {
+    position:   relative;
+    padding:    2rem 0 1rem;
+    border-top: 1px solid white;
+    text-align: left;
+}

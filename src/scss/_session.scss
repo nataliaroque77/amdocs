@@ -1,0 +1,17 @@
+.session {
+    .card {
+        background-color: $primary;
+        width:            400px;
+        padding:          40px 100px 20px;
+    }
+
+    h2 {
+        font-family: $font-family-bold;
+    }
+
+    .actions-section {
+        margin-top:    2rem;
+        margin-bottom: 2rem;
+        text-align:    right;
+    }
+}

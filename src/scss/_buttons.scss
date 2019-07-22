@@ -1,0 +1,51 @@
+/*--
+    Button and submit button style
+------------------------------------------*/
+.btn {
+    display:     inline-block;
+    font-family: non-seasonal sans, sans-serif;
+    font-size:   16px;
+    font-weight: 500;
+    line-height: 1;
+    padding:     0 40px;
+    transition:  all 0.3s ease 0s;
+    text-align:  center;
+    min-height:  38px;
+
+    &:disabled {
+        pointer-events: none;
+    }
+}
+
+
+.btn-primary {
+    color:      white;
+    background: $dark-hover none repeat scroll 0 0;
+    border:     2px solid $dark-hover;
+
+    &:hover,
+    &:focus {
+        color:        white;
+        border-color: black;
+        background:   black;
+        box-shadow:   0 5px 30px rgba(0, 0, 0, .15);
+    }
+
+    &:focus {
+        box-shadow: 0 5px 30px rgba(0, 0, 0, .15);
+    }
+}
+
+
+.btn-default {
+    background-color: #EDEEF2;
+    border:           1px solid $primary-lines;
+
+    &:hover {
+        background-color: white;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(150, 150, 150, 0.2);
+    }
+}

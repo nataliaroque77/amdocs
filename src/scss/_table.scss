@@ -1,0 +1,50 @@
+//
+// Basic  table
+//
+.table {
+    width:           100%;
+    border:          1px solid $primary-lines;
+    border-collapse: collapse;
+    margin-bottom:   0;
+
+    th,
+    td {
+        padding:        1.2rem;
+        vertical-align: middle;
+        text-align:     left;
+        border:         1px solid $primary-lines;
+    }
+
+    thead th {
+        vertical-align:   middle;
+        background-color: #a6a6a6;
+        color:            black;
+        border-top:       none;
+        letter-spacing:   .3px;
+        text-align:       center;
+
+    }
+
+    thead th,
+    thead td {
+        border-bottom-width: 2px;
+    }
+
+    tbody th {
+        border-top: 1px solid $primary-lines;
+        color:      black;
+    }
+
+    tbody tr:nth-of-type(odd) {
+        background-color: white;
+    }
+
+}
+
+
+.table-responsive {
+    display:                    block;
+    width:                      100%;
+    overflow-x:                 auto;
+    -webkit-overflow-scrolling: touch;
+}
