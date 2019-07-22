@@ -1,7 +1,6 @@
  
- App run in below URL
- https://nataliaroque77.github.io/amdocs
-
+ App runs only locally.
+ 
 
 ### `npm install`
 
