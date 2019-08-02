@@ -11,7 +11,7 @@ function login(username, credential) {
     return fetch(url, options)
         .then(response => {
             if(!response.ok) {
-                return Promise.reject('--Please contact the System Administrator at extension 1001 to create a new Login or reset your password.');
+                return Promise.reject('Please contact the System Administrator at extension 1001 to create a new Login or reset your password.');
             }
             return response;
         })

@@ -22,7 +22,7 @@ const ResultList = props => {
                                     </thead>
                                     <tbody>
                                     {props.results.map((result, index) =>
-                                        <tr key={result.id}>
+                                        <tr key={index}>
                                             <td>
                                                 {result.username}
                                             </td>
